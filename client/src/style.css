@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+ padding: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+ background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) , url(../public/bank.jpg) ;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-blend-mode: darken;
+ width: 100vw;
+ height: 100vh;
+}
+
+.section {
+ text-align: center; 
+ justify-content: center;
+ align-items: center;
+}
+
+.logo {
+ padding: 2rem;
+ color: rgb(197, 229, 248);
+}
+
+.title-div {
+  padding: 5rem 0;
+  color: rgb(209, 233, 252);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.title-div h1 {
+  color: rgb(188, 255, 246);
+}
+
+.content-div {
+  padding: 3rem 30rem;
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: rgb(88, 177, 255);
+}
+
+.content-div p {
+ padding-bottom: 2rem;
+}
+
+.css-9y1egq-MuiButtonBase-root-MuiButton-root {
+ color: rgb(21, 231, 56) !important;
+ border: 1px solid rgb(68, 210, 25) !important;
+} 
+
+.css-s9xnsk {
+background-color: rgb(241, 246, 255);
+}
+
+.css-qb0osp {
+  border: 1px solid rgb(97, 97, 197);
+  box-shadow: 20px 20px 50px rgb(93, 93, 102) ;
+  border-radius: 8px;
+  padding: 2rem !important;
+  background-color: transparent;
+}
+
+#reset-input {
+  outline: none;
+  background: transparent;
+  border: 0;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+.applications {
+  background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)) , url(../public/bank.jpg) ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  padding: 2rem ;
+  height: 100vh;
+ text-align: center;
+}
+
+body {
+  font-family: Poppins;
+}
+
+@media only screen and (max-width : 900px) {
+  .content-div {
+   padding: 3rem;
+  }
+  .title-div {
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
