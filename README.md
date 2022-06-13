@@ -16,11 +16,18 @@ npm install
 ## Usage
 
 - Backend
+- ```shell
+npm install
+```
 ```shell
 node app.js
 ```
 
 - Frontend
-```shell
-cd client && npm start
+- ```shell
+cd client && npm install
 ```
+- ```shell
+npm start
+```
+
