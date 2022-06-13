@@ -22,7 +22,7 @@ export default function FormPagination({ value, setValue, setErrMsg }) {
         setValue(value - 1)
     }
 
-    const handleSubmit = async() => {
+    const handleSubmit = () => {
         const data = { ...personalDetails, ...businessDetails, ...applicationDetails }
         submitDetails(data, (err, res) => {
         
@@ -33,10 +33,10 @@ export default function FormPagination({ value, setValue, setErrMsg }) {
             }
             if (err)
                 return
-            else if(res.status !== 202 && res.status !== null) {
+           
             dispatch(updateErrorMsg(''))
             dispatch(updateSuccessMsg('Application sent'))
-            window.location.reload()}
+            window.location.reload()
         }
         )
     }
